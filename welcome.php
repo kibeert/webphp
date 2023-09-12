@@ -71,7 +71,15 @@
     echo(rand());
 
     define("KIBET","Welcome home Now");
-    echo KIBET
+    echo KIBET."<br>";
+    $w= date("H");
+    echo "$w"."<br>";
+    if (2<1) {
+        echo "Have A Good Evening";
+    }
+    else{
+        echo "Enjoy a Good MOrning";
+    }
 
     ?>
 
