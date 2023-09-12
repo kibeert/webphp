@@ -15,7 +15,9 @@
     $today = "Monday" ."<br>";
     echo "Today is on a". " ".$today;
 
-    
+    $x= 10;
+    $y= 6.5;
+    echo "the value of x and y is"." ".$x+$y;
     ?>
 </body>
 </html>
