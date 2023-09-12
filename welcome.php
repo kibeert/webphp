@@ -70,6 +70,9 @@
     var_dump(is_numeric($x))."<br>";
     echo(rand());
 
+    define("KIBET","Welcome home Now");
+    echo KIBET
+
     ?>
 
    
