@@ -68,7 +68,11 @@
 
     $x = "Hello";
     var_dump(is_numeric($x))."<br>";
+    echo(rand());
+
     ?>
+
+   
     
 </body>
 </html>
