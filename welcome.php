@@ -32,5 +32,30 @@
     var_dump($cars);
     echo ($cars)
     ?>
+    <?php
+    class Car {
+        public $color ;
+        public $model ;
+        public function __construct($color, $model)
+        {
+            $this->color = $color;
+            $this->model = $model;
+
+        }
+        public function message(){
+            return "My Car is a  ". $this->color. "   ". $this->model;;
+        }
+    }
+    $myCar = new Car("Black", "Volvo");
+    echo $myCar -> message();
+    echo "<br>";
+    $s = "Lorem ipsum dolor sit amet consectetur adipisicing elit. Illum temporibus assumenda explicabo sapiente incidunt, nemo ipsam animi. Nam aliquam ipsum libero! Dolor illum laborum molestiae laboriosam similique deleniti impedit. Qui?"."<br>";
+    echo strlen($s)."<br>";
+    echo str_word_count($s)."<br>";
+    echo strrev($s)
+
+
+    ?>
+    
 </body>
 </html>
