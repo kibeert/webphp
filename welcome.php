@@ -50,11 +50,24 @@
     echo $myCar -> message();
     echo "<br>";
     $s = "Lorem ipsum dolor sit amet consectetur adipisicing elit. Illum temporibus assumenda explicabo sapiente incidunt, nemo ipsam animi. Nam aliquam ipsum libero! Dolor illum laborum molestiae laboriosam similique deleniti impedit. Qui?"."<br>";
+    echo "$s"."<br>";
     echo strlen($s)."<br>";
     echo str_word_count($s)."<br>";
-    echo strrev($s)
+    
+    echo strpos($s, "animi")."<br>";
+    echo str_replace("nemo","kibet",$s);
 
+    $x = 5985;
+    var_dump(is_numeric($x))."<br>";
 
+    $x = "5985";
+    var_dump(is_numeric($x))."<br>";
+
+    $x = "59.85" + 100;
+    var_dump(is_numeric($x))."<br>";
+
+    $x = "Hello";
+    var_dump(is_numeric($x))."<br>";
     ?>
     
 </body>
