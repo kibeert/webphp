@@ -10,6 +10,10 @@
 <body>
     <form action="home.php " method="post">
     <div class="form-floating mb-3 mt-3">
+  <input type="text" class="form-control" id="name" placeholder="Enter name" name="name" required>
+  <label for="name">Name</label>
+</div>
+    <div class="form-floating mb-3 mt-3">
   <input type="text" class="form-control" id="email" placeholder="Enter email" name="email" required>
   <label for="email">Email</label>
 </div>
