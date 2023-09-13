@@ -99,7 +99,15 @@ foreach ($colors as $value) {
     function myFunction($a, $b){
         echo $a * $b;
     }
-    myFunction(10, 4)
+    myFunction(10, 4);
+
+    function fullName($fname){
+        echo "collins".$fname; 
+    }
+    fullName("kibet");
+
+    $t = array("Volvo", "BMW", "Toyota");
+    echo count($t)
 
     ?>
 </body>
