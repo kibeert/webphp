@@ -565,13 +565,44 @@ foreach ($colors as $value) {
         echo sort($car_models);
         
     }
-    $ages = array("peter"=>"35", "Ben"=>"37", "Joe"=>"43");
+    $ages = array("peter"=>35, "Ben"=>37, "Joe"=>43);
     echo asort($ages);
     echo "Tubidy";
     $age = array("Peter"=>"35", "Ben"=>"37", "Joe"=>"43");
 asort($age);
+echo $_SERVER['PHP_SELF'];
+echo "<br>";
+echo $_SERVER['SERVER_NAME'];
+echo "<br>";
+echo $_SERVER['HTTP_HOST'];
+echo "<br>";
+
+echo $_SERVER['HTTP_USER_AGENT'];
+echo "<br>";
+echo $_SERVER['SCRIPT_NAME'];
+?>
     
 
     ?>
+    <form method="post" action="<?php echo $_SERVER['PHP_SELF'];?>">
+  Name: <input type="text" name="fname">
+  <input type="submit">
+</form>
+<?php
+if ($_SERVER["REQUEST_METHOD"] == "POST") {
+  // collect value of input field
+  $name = $_REQUEST['fname'];
+  if (empty($name)) {
+    echo "Name is empty";
+  } else {
+    echo $name;
+    echo "<br>";
+  }
+$str = "Visit W3schools.com";
+$pattern = "/Visit/i";
+echo preg_match($pattern, $str);
+}
+
+?>
 </body>
 </html>
