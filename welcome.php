@@ -97,7 +97,7 @@ foreach ($colors as $value) {
     }
 
     function myFunction($a, $b){
-        echo "$a * $b"tfukc;
+        echo $a * $b;
     }
     myFunction(10, 4)
 
