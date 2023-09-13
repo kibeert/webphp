@@ -563,8 +563,13 @@ foreach ($colors as $value) {
         echo $car_models[$i];
         echo "<br>";
         echo sort($car_models);
-        echo rsort($car_models);
+        
     }
+    $ages = array("peter"=>"35", "Ben"=>"37", "Joe"=>"43");
+    echo asort($ages);
+    echo "Tubidy";
+    $age = array("Peter"=>"35", "Ben"=>"37", "Joe"=>"43");
+asort($age);
     
 
     ?>
