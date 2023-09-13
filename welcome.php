@@ -86,8 +86,15 @@
         echo "The number is: $x <br>";
   $x++;
 }
-   
-    
+$colors = array("red", "green", "blue", "yellow");
+
+foreach ($colors as $value) {
+  echo "$value <br>";
+}
+    $age = array(10, 14,89,72,34,45,67);
+    foreach($age as $value){
+        echo "$value"."<br>";
+    }
 
 
     ?>
