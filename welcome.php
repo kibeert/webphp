@@ -96,10 +96,11 @@ foreach ($colors as $value) {
         echo "$value"."<br>";
     }
 
+    function myFunction($a, $b){
+        echo "$a * $b"tfukc;
+    }
+    myFunction(10, 4)
 
     ?>
-
-   
-    
 </body>
 </html>
